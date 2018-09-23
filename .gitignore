@@ -1,0 +1,9 @@
+## Project ##
+
+node_modules/
+build/
+
+## VS ##
+
+.vs/
+*.user
