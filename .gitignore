@@ -15,6 +15,7 @@ speed-measure-plugin*.json
 .vs/
 bin/
 obj/
+*.njsproj
 
 # misc
 /.sass-cache
