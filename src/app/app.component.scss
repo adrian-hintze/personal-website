@@ -1,7 +1,7 @@
 .main-container {
     max-width: 900px;
     min-width: 320px;
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 100px;
 
     @media screen and (max-width: 900px) {
@@ -32,7 +32,7 @@
 
         div:first-child {
             @media screen and (min-width: 900px) {
-                max-width: 300px;
+                max-width: 350px;
             }
 
             p:first-child {
@@ -49,5 +49,11 @@
             border-radius: 10px;
             max-width: 100%;
         }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 50px;
     }
 }

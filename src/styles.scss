@@ -3,10 +3,15 @@
 html, body {
     margin: 0;
     background-color: #FCFCFC;
+    color: #222222;
+}
+
+a {
+    color: #555555;
 }
 
 h1 {
-    font-family: 'PT Sans', Arial;
+    font-family: 'Roboto', Arial;
     font-weight: 700;
     font-style: normal;
     font-size: 42px;
@@ -14,15 +19,22 @@ h1 {
     line-height: 1.2em;
 
     a {
-        color: #000000;
         text-decoration: none;
     }
 }
 
 p {
-    font-family: Roboto, Arial;
+    font-family: 'PT Sans', Arial;
     font-weight: 300;
     font-style: normal;
     font-size: 15px;
     line-height: 1.8em;
+
+    a {
+        font-size: 17px;
+    }
+
+    a:hover {
+        color: #000000;
+    }
 }
