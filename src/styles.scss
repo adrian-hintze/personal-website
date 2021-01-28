@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */a
+
+html, body {
+    margin: 0;
+    background-color: #FCFCFC;
+}
+
+h1 {
+    font-family: 'PT Sans', Arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+}
+
+p {
+    font-family: Roboto, Arial;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.8em;
+}
