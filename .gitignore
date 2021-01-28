@@ -16,6 +16,7 @@ speed-measure-plugin*.json
 bin/
 obj/
 *.njsproj
+*.njsproj.user
 *.sln
 
 # misc
